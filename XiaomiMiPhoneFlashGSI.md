@@ -3,14 +3,17 @@ GSI 的全称是 Generic System Image，翻译过来就是「通用系统镜像�
 # 二、gsi镜像通刷包的特点
 优点是在机器还没有适配第三方ROM的时候，可以提前体验到类原生系统，体验原生系统的流畅简洁以及丰富的自定义。但同样存在不小的问题，由于此类镜像包没有针对具体机型进行优化，所以会存在部分问题，例如小米手机的四角弧度过大，gsi镜像包刷入后状态栏会有不匹配，显示不完全的可能性以及相机无法拍照，即使可以拍照，相片质量也堪忧。
 # 三、gsi镜像包的刷入选择
-gsi通刷包有很多种选择，也是由不同的国外大神负责维护，下面贴上几乎所有gsi通刷包（包括官方和非官方）的集合链接，请各位自行选择，选择包的种类请见下一章节。[点此跳转GitHub](https://github.com/phhusson/treble_experimentations)
-PS.我本人试过phh大神2维护的AOSP9.0。
+gsi通刷包有很多种选择，也是由不同的国外大神负责维护，下面贴上几乎所有gsi通刷包（包括官方和非官方）的集合链接，请各位自行选择，选择包的种类请见下一章节。
+
+[点此跳转GitHub](https://github.com/phhusson/treble_experimentations/wiki)
 # 四、gsi镜像包类名的选择（两类）
 ### 出厂安卓版本是8.0及以下的手机
 - 第一步
 需要下载一个软件Treble Check检测，附上谷歌商店和酷安链接。
-[Treble Check（点击跳转Google play store）](https://play.google.com/store/apps/details?id=com.kevintresuelo.treble)
-[Treble Check（点击跳转酷安应用市场）](https://www.coolapk.com/apk/com.kevintresuelo.treble)
+
+   [Treble Check（点击跳转Google play store）](https://play.google.com/store/apps/details?id=com.kevintresuelo.treble)
+
+   [Treble Check（点击跳转酷安应用市场）](https://www.coolapk.com/apk/com.kevintresuelo.treble)
 - 第二步
 打开软件查看检测结果，只有当**Project Treble**通过检测才表明此手机可以刷gsi镜像包。接着看第二项**Seamless System Updates**，如果显示**A/B**即表明你应该选择的通刷包后缀名为*A/B*或者*AB*。若检测结果显示**A only**，即表明你应该选择的通刷包后缀名为*A*或者*A only*。
 - 第三步
@@ -26,7 +29,7 @@ PS.我本人试过phh大神2维护的AOSP9.0。
 
 # 五、刷机步骤
 ### 自行完成
-- 1.自行刷入第三方rec 
+- 1.自行刷入第三方rec
 - 2.自行下载好gsi解压后得到img镜像包
 
 ### 刷机前注意
@@ -42,6 +45,3 @@ PS.我本人试过phh大神2维护的AOSP9.0。
 
 # 六、系统的使用
 完成以上步骤即可完成刷机工作，如过程中遇到问题，可以去负责维护相关镜像系统的GitHub反馈Issue。
-
-
-
