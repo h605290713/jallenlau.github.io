@@ -1,7 +1,7 @@
 
-#My Blog
+# My Blog
 
-##Introduction
+## Introduction
 
 This is my first [GitHub Account](https://github.com/jallenlau/jallenlau.github.io)
 
